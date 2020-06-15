@@ -21,7 +21,7 @@ class Timer extends Component {
         var time = Math.round(this.state.time/1000);
         return (
             <div className >  
-               <span>{time} </span>
+               <span> {time} </span>
             </div>
         );
     }
